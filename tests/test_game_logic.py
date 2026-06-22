@@ -16,7 +16,7 @@ def test_guess_too_low():
     assert result == ("Too Low", "📈 Go HIGHER!")
 
 
-def test_parse_guess_valid_number():
+def test_parse_guess_valid_number(): #FIX: Added test case for valid number parsing in parse_guess function.
     ok, value, error = parse_guess("42")
     assert ok is True
     assert value == 42
