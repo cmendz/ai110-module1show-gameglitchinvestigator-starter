@@ -25,29 +25,36 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- The purpose of the game is to provide an experience where the user tries to guess a secret number randomized by the application.
+- Game logic function were in app.py instead of logic_utils.py, incorrect descriptions given to user when guessing secret number, number of attemps left not changing accordingly with guess, etc.
+- Moved game logic functions to logic_utils.py, refined descriptions given to users based on guesses, altered test cases in test_game_logic.py, etc.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User enters guess of 55 # Secret number is 40
+2. Game returns "Too High" and reduces "Attempts Left" by 1.
+3. Score updates.
+4. User enters a guess of 35
+5. Game returns "Too Low" and reduces "Attempts Left" by 1.
+6. Score updates.
+7. User enters correct guess of 40
+8. Game ends after correct guess, with score and message being returned,
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
 ## 🧪 Test Results
 
-```
-# Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
-```
+========================================== test session starts ==========================================
+platform win32 -- Python 3.12.4, pytest-9.0.3, pluggy-1.6.0
+rootdir: C:\Users\chris\OneDrive\Desktop\ai110-module1show-gameglitchinvestigator-starter
+plugins: anyio-4.8.0
+collected 4 items                                                                                        
+
+tests\test_game_logic.py ....                                                                      [100%]
+
+=========================================== 4 passed in 0.01s ===========================================
 
 ## 🚀 Stretch Features
 
