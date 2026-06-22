@@ -33,14 +33,14 @@ It wrote the code, ran away, and now the game is unplayable.
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. User enters guess of 55 # Secret number is 40
+1. User enters guess of 55 # Secret number is 40.
 2. Game returns "Too High" and reduces "Attempts Left" by 1.
 3. Score updates.
-4. User enters a guess of 35
+4. User enters a guess of 35.
 5. Game returns "Too Low" and reduces "Attempts Left" by 1.
 6. Score updates.
-7. User enters correct guess of 40
-8. Game ends after correct guess, with score and message being returned,
+7. User enters correct guess of 40.
+8. Game ends after correct guess, with score and message being returned.
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 

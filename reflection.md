@@ -35,7 +35,7 @@ Document at least 3 bugs you found. Add rows as needed.
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 # An example of an AI suggestion that was correct was when it came to a bug within the logic of the code. For example, previously, when gussing a number higher than the secret, it would indicate to "GO Higher", which should have not been the case.
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
-# For the most part, the AI suggestions were never incorrect or misleading, since for every clear prompt, there was a clear change, and I made sure to go through each change feeling confident that it was changing for the better along the way.
+# For the most part, the AI suggestions were never incorrect or misleading, since for every clear prompt, there was a clear change, and I made sure to go through each change, feeling confident that it was changing for the better along the way.
 ---
 
 ## 3. Debugging and testing your fixes
@@ -53,7 +53,7 @@ Document at least 3 bugs you found. Add rows as needed.
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-# For Streamlit reruns, I would explain it as the application being rerun again whenever a button is press, which allows the screen to be updated. For Streamlit session states, I would describe it as a way to share variables and information between each run, so that future runs of the application can remember what was done previously.
+# For Streamlit reruns, I would explain it as the application being rerun again whenever a button is pressed, which allows the screen to be updated. For Streamlit session states, I would describe it as a way to share variables and information between each run, so that future runs of the application can remember what was done previously.
 
 # Example: Without Session State, if beginning with 5 attempts to guess, if number is guessed, Streamlit forgets everything and application resets attempts back at 5 everytime.
 
@@ -68,4 +68,4 @@ Document at least 3 bugs you found. Add rows as needed.
 - What is one thing you would do differently next time you work with AI on a coding task?
 # I would make sure to immediately comment next to the changes that were made, that way it reduces the hassle of having to go through each fix at the end and wondering what exactly was changed again.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
-# Overall, this project helped me realize that the Coding Assistant isn't there to create whole project and write the code all for you. Instead, it is there to guide and suggests changes that may help your goals.
+# Overall, this project helped me realize that the Coding Assistant isn't there to create the whole project and write the code all for you. Instead, it is there to guide and suggests changes that may help your goals.
